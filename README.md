@@ -1,2 +1,2 @@
-# Monster
-CST 338 Monster Assignment
+# Monsters.Monster
+CST 338 Monsters.Monster Assignment
