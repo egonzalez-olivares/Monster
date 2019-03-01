@@ -8,10 +8,10 @@ import java.util.Random;
 
 public abstract class Monster {
     private Integer hp;
-    private Integer xp;
-    Integer agi;
-    Integer def;
-    Integer str;
+    private Integer xp = 10;
+    Integer agi = 5;
+    Integer def = 5;
+    Integer str = 5;
     Attack attack;
     private Integer maxHP;
     private HashMap<String, Integer> items;
@@ -24,7 +24,7 @@ public abstract class Monster {
     }
 
     public Integer attackTarget(Monster target) {
-        return null;
+        return this.attack.attack(target);
     }
 
     public Integer getHp() {
